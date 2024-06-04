@@ -13,6 +13,7 @@
 			buildPhases = (
 			);
 			dependencies = (
+				88B19E352BE51E8000B49341 /* PBXTargetDependency */,
 				02936E5E172CD35E00D07977 /* PBXTargetDependency */,
 			);
 			name = "All blhost tools";
@@ -64,6 +65,53 @@
 		3B8BB84B1BD17B73000EFB8B /* rijndael.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3B8BB8431BD17B73000EFB8B /* rijndael.cpp */; };
 		3B8BB84C1BD17B73000EFB8B /* RijndaelCTR.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3B8BB8441BD17B73000EFB8B /* RijndaelCTR.cpp */; };
 		3B8BB84D1BD17B73000EFB8B /* StIntelHexFile.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3B8BB8451BD17B73000EFB8B /* StIntelHexFile.cpp */; };
+		88B19DFC2BE51A0700B49341 /* Updater.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 04957C8A1AA8CDF10083BEDA /* Updater.cpp */; };
+		88B19DFD2BE51A0700B49341 /* SRecordSourceFile.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 04957C851AA8CDF10083BEDA /* SRecordSourceFile.cpp */; };
+		88B19DFE2BE51A0700B49341 /* options.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 02528C1916FE308F0026B4C2 /* options.cpp */; };
+		88B19DFF2BE51A0700B49341 /* UsbHidPeripheral.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 04957C8C1AA8CDF10083BEDA /* UsbHidPeripheral.cpp */; };
+		88B19E002BE51A0700B49341 /* SearchPath.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 04957C7E1AA8CDF10083BEDA /* SearchPath.cpp */; };
+		88B19E012BE51A0700B49341 /* UsbHidPacketizer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 04957C8B1AA8CDF10083BEDA /* UsbHidPacketizer.cpp */; };
+		88B19E022BE51A0700B49341 /* BusPalPeripheral.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 04957C741AA8CDF10083BEDA /* BusPalPeripheral.cpp */; };
+		88B19E032BE51A0700B49341 /* BusPal.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 04957C731AA8CDF10083BEDA /* BusPal.cpp */; };
+		88B19E042BE51A0700B49341 /* Command.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 04957C751AA8CDF10083BEDA /* Command.cpp */; };
+		88B19E052BE51A0700B49341 /* GHSSecInfo.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 04957C7B1AA8CDF10083BEDA /* GHSSecInfo.cpp */; };
+		88B19E062BE51A0700B49341 /* StIntelHexFile.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3B8BB8451BD17B73000EFB8B /* StIntelHexFile.cpp */; };
+		88B19E072BE51A0700B49341 /* RijndaelCTR.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3B8BB8441BD17B73000EFB8B /* RijndaelCTR.cpp */; };
+		88B19E082BE51A0700B49341 /* HexValues.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3B8BB8401BD17B73000EFB8B /* HexValues.cpp */; };
+		88B19E092BE51A0700B49341 /* StELFFile.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 04957C861AA8CDF10083BEDA /* StELFFile.cpp */; };
+		88B19E0A2BE51A0700B49341 /* Value.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 04957C8D1AA8CDF10083BEDA /* Value.cpp */; };
+		88B19E0B2BE51A0700B49341 /* serial.c in Sources */ = {isa = PBXBuildFile; fileRef = 0289203D170A1279007D3438 /* serial.c */; };
+		88B19E0C2BE51A0700B49341 /* Logging.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 02936E52172CD27A00D07977 /* Logging.cpp */; };
+		88B19E0D2BE51A0700B49341 /* SerialPacketizer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 04957C7F1AA8CDF10083BEDA /* SerialPacketizer.cpp */; };
+		88B19E0E2BE51A0700B49341 /* Blob.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 04957C711AA8CDF10083BEDA /* Blob.cpp */; };
+		88B19E0F2BE51A0700B49341 /* AESKey.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3B8BB83F1BD17B73000EFB8B /* AESKey.cpp */; };
+		88B19E102BE51A0700B49341 /* AESCounter.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3B8BB83E1BD17B73000EFB8B /* AESCounter.cpp */; };
+		88B19E112BE51A0700B49341 /* DataSourceImager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 04957C771AA8CDF10083BEDA /* DataSourceImager.cpp */; };
+		88B19E122BE51A0700B49341 /* SBSourceFile.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 04957C7D1AA8CDF10083BEDA /* SBSourceFile.cpp */; };
+		88B19E132BE51A0700B49341 /* crc32.c in Sources */ = {isa = PBXBuildFile; fileRef = 020F8984175E4DB5009F0B96 /* crc32.c */; };
+		88B19E142BE51A0700B49341 /* hid-mac.c in Sources */ = {isa = PBXBuildFile; fileRef = BFB431BE000005C8007086B9 /* hid-mac.c */; };
+		88B19E152BE51A0700B49341 /* jsoncpp.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 02558D3017C3AC2600D3721D /* jsoncpp.cpp */; };
+		88B19E162BE51A0700B49341 /* DataSource.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 04957C761AA8CDF10083BEDA /* DataSource.cpp */; };
+		88B19E172BE51A0700B49341 /* DataTarget.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 04957C781AA8CDF10083BEDA /* DataTarget.cpp */; };
+		88B19E182BE51A0700B49341 /* SourceFile.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 04957C841AA8CDF10083BEDA /* SourceFile.cpp */; };
+		88B19E192BE51A0700B49341 /* StSRecordFile.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 04957C881AA8CDF10083BEDA /* StSRecordFile.cpp */; };
+		88B19E1A2BE51A0700B49341 /* ExcludesListMatcher.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 04957C7A1AA8CDF10083BEDA /* ExcludesListMatcher.cpp */; };
+		88B19E1B2BE51A0700B49341 /* rijndael.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3B8BB8431BD17B73000EFB8B /* rijndael.cpp */; };
+		88B19E1C2BE51A0700B49341 /* ELFSourceFile.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 04957C791AA8CDF10083BEDA /* ELFSourceFile.cpp */; };
+		88B19E1D2BE51A0700B49341 /* utils.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 02558D3417CF9C1E00D3721D /* utils.cpp */; };
+		88B19E1E2BE51A0700B49341 /* UartPeripheral.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 04957C891AA8CDF10083BEDA /* UartPeripheral.cpp */; };
+		88B19E1F2BE51A0700B49341 /* Random.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3B8BB8421BD17B73000EFB8B /* Random.cpp */; };
+		88B19E202BE51A0700B49341 /* IntelHexSourceFile.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3B8BB8411BD17B73000EFB8B /* IntelHexSourceFile.cpp */; };
+		88B19E212BE51A0700B49341 /* format_string.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 02558D3B17D7B05100D3721D /* format_string.cpp */; };
+		88B19E222BE51A0700B49341 /* Bootloader.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 04957C721AA8CDF10083BEDA /* Bootloader.cpp */; };
+		88B19E232BE51A0700B49341 /* GlobMatcher.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 04957C7C1AA8CDF10083BEDA /* GlobMatcher.cpp */; };
+		88B19E242BE51A0700B49341 /* crc16.c in Sources */ = {isa = PBXBuildFile; fileRef = BF49F39917F34E8B00A0B079 /* crc16.c */; };
+		88B19E252BE51A0700B49341 /* StExecutableImage.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 04957C871AA8CDF10083BEDA /* StExecutableImage.cpp */; };
+		88B19E272BE51A0700B49341 /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 02C2956F18996B3D00C08DCF /* CoreFoundation.framework */; };
+		88B19E282BE51A0700B49341 /* IOKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 02C2956D18996B3500C08DCF /* IOKit.framework */; };
+		88B19E302BE51A6200B49341 /* SDPCommand.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 88B19E2E2BE51A6200B49341 /* SDPCommand.cpp */; };
+		88B19E312BE51A6200B49341 /* SDPUsbHidPacketizer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 88B19E2F2BE51A6200B49341 /* SDPUsbHidPacketizer.cpp */; };
+		88B19E332BE51AA700B49341 /* sdphost.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 88B19E322BE51AA700B49341 /* sdphost.cpp */; };
 		BF49F39A17F34E8B00A0B079 /* crc16.c in Sources */ = {isa = PBXBuildFile; fileRef = BF49F39917F34E8B00A0B079 /* crc16.c */; };
 		BFB431BF000005C8007086B9 /* hid-mac.c in Sources */ = {isa = PBXBuildFile; fileRef = BFB431BE000005C8007086B9 /* hid-mac.c */; };
 /* End PBXBuildFile section */
@@ -76,6 +124,13 @@
 			remoteGlobalIDString = 02528C3516FE31DC0026B4C2;
 			remoteInfo = blhost;
 		};
+		88B19E342BE51E8000B49341 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 02B3B3AC16DE7116009769BD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 88B19DF92BE51A0700B49341;
+			remoteInfo = sdphost;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -83,6 +138,15 @@
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		88B19E292BE51A0700B49341 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1;
 			dstSubfolderSpec = 0;
 			files = (
 			);
@@ -195,6 +259,10 @@
 		3B8BB8581BD17B9B000EFB8B /* smart_ptr.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = smart_ptr.h; sourceTree = "<group>"; };
 		3B8BB8591BD17B9B000EFB8B /* SRecordSourceFile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SRecordSourceFile.h; sourceTree = "<group>"; };
 		3B8BB85A1BD17B9B000EFB8B /* StIntelHexFile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StIntelHexFile.h; sourceTree = "<group>"; };
+		88B19E2D2BE51A0700B49341 /* sdphost */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = sdphost; sourceTree = BUILT_PRODUCTS_DIR; };
+		88B19E2E2BE51A6200B49341 /* SDPCommand.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SDPCommand.cpp; sourceTree = "<group>"; };
+		88B19E2F2BE51A6200B49341 /* SDPUsbHidPacketizer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SDPUsbHidPacketizer.cpp; sourceTree = "<group>"; };
+		88B19E322BE51AA700B49341 /* sdphost.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = sdphost.cpp; path = ../sdphost.cpp; sourceTree = "<group>"; };
 		BF49F39817F34E7900A0B079 /* crc16.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = crc16.h; sourceTree = "<group>"; };
 		BF49F39917F34E8B00A0B079 /* crc16.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = crc16.c; sourceTree = "<group>"; };
 		BFB431BC00000484007086B9 /* hidapi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = hidapi.h; sourceTree = "<group>"; };
@@ -208,6 +276,15 @@
 			files = (
 				02C2957218996B5300C08DCF /* CoreFoundation.framework in Frameworks */,
 				02C2957118996B4E00C08DCF /* IOKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		88B19E262BE51A0700B49341 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				88B19E272BE51A0700B49341 /* CoreFoundation.framework in Frameworks */,
+				88B19E282BE51A0700B49341 /* IOKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -300,6 +377,8 @@
 		02528C1716FE308F0026B4C2 /* src */ = {
 			isa = PBXGroup;
 			children = (
+				88B19E2E2BE51A6200B49341 /* SDPCommand.cpp */,
+				88B19E2F2BE51A6200B49341 /* SDPUsbHidPacketizer.cpp */,
 				3B8BB83E1BD17B73000EFB8B /* AESCounter.cpp */,
 				3B8BB83F1BD17B73000EFB8B /* AESKey.cpp */,
 				3B8BB8401BD17B73000EFB8B /* HexValues.cpp */,
@@ -364,6 +443,7 @@
 		02B3B3AB16DE7116009769BD = {
 			isa = PBXGroup;
 			children = (
+				88B19E322BE51AA700B49341 /* sdphost.cpp */,
 				02C2956C18996B1E00C08DCF /* Frameworks */,
 				02528C2516FE31980026B4C2 /* blhost */,
 				02C6C97816FE4AC40023EB1B /* src */,
@@ -375,6 +455,7 @@
 			isa = PBXGroup;
 			children = (
 				02528C3616FE31DC0026B4C2 /* blhost */,
+				88B19E2D2BE51A0700B49341 /* sdphost */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -429,6 +510,23 @@
 			productReference = 02528C3616FE31DC0026B4C2 /* blhost */;
 			productType = "com.apple.product-type.tool";
 		};
+		88B19DF92BE51A0700B49341 /* sdphost */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 88B19E2A2BE51A0700B49341 /* Build configuration list for PBXNativeTarget "sdphost" */;
+			buildPhases = (
+				88B19DFA2BE51A0700B49341 /* Sources */,
+				88B19E262BE51A0700B49341 /* Frameworks */,
+				88B19E292BE51A0700B49341 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = sdphost;
+			productName = blhost;
+			productReference = 88B19E2D2BE51A0700B49341 /* sdphost */;
+			productType = "com.apple.product-type.tool";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -443,6 +541,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 			);
 			mainGroup = 02B3B3AB16DE7116009769BD;
@@ -452,6 +551,7 @@
 			targets = (
 				02528C3516FE31DC0026B4C2 /* blhost */,
 				02936E57172CD33100D07977 /* All blhost tools */,
+				88B19DF92BE51A0700B49341 /* sdphost */,
 			);
 		};
 /* End PBXProject section */
@@ -507,6 +607,58 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		88B19DFA2BE51A0700B49341 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				88B19E332BE51AA700B49341 /* sdphost.cpp in Sources */,
+				88B19DFC2BE51A0700B49341 /* Updater.cpp in Sources */,
+				88B19DFD2BE51A0700B49341 /* SRecordSourceFile.cpp in Sources */,
+				88B19DFE2BE51A0700B49341 /* options.cpp in Sources */,
+				88B19DFF2BE51A0700B49341 /* UsbHidPeripheral.cpp in Sources */,
+				88B19E002BE51A0700B49341 /* SearchPath.cpp in Sources */,
+				88B19E012BE51A0700B49341 /* UsbHidPacketizer.cpp in Sources */,
+				88B19E022BE51A0700B49341 /* BusPalPeripheral.cpp in Sources */,
+				88B19E032BE51A0700B49341 /* BusPal.cpp in Sources */,
+				88B19E042BE51A0700B49341 /* Command.cpp in Sources */,
+				88B19E052BE51A0700B49341 /* GHSSecInfo.cpp in Sources */,
+				88B19E062BE51A0700B49341 /* StIntelHexFile.cpp in Sources */,
+				88B19E072BE51A0700B49341 /* RijndaelCTR.cpp in Sources */,
+				88B19E082BE51A0700B49341 /* HexValues.cpp in Sources */,
+				88B19E092BE51A0700B49341 /* StELFFile.cpp in Sources */,
+				88B19E0A2BE51A0700B49341 /* Value.cpp in Sources */,
+				88B19E0B2BE51A0700B49341 /* serial.c in Sources */,
+				88B19E312BE51A6200B49341 /* SDPUsbHidPacketizer.cpp in Sources */,
+				88B19E0C2BE51A0700B49341 /* Logging.cpp in Sources */,
+				88B19E0D2BE51A0700B49341 /* SerialPacketizer.cpp in Sources */,
+				88B19E302BE51A6200B49341 /* SDPCommand.cpp in Sources */,
+				88B19E0E2BE51A0700B49341 /* Blob.cpp in Sources */,
+				88B19E0F2BE51A0700B49341 /* AESKey.cpp in Sources */,
+				88B19E102BE51A0700B49341 /* AESCounter.cpp in Sources */,
+				88B19E112BE51A0700B49341 /* DataSourceImager.cpp in Sources */,
+				88B19E122BE51A0700B49341 /* SBSourceFile.cpp in Sources */,
+				88B19E132BE51A0700B49341 /* crc32.c in Sources */,
+				88B19E142BE51A0700B49341 /* hid-mac.c in Sources */,
+				88B19E152BE51A0700B49341 /* jsoncpp.cpp in Sources */,
+				88B19E162BE51A0700B49341 /* DataSource.cpp in Sources */,
+				88B19E172BE51A0700B49341 /* DataTarget.cpp in Sources */,
+				88B19E182BE51A0700B49341 /* SourceFile.cpp in Sources */,
+				88B19E192BE51A0700B49341 /* StSRecordFile.cpp in Sources */,
+				88B19E1A2BE51A0700B49341 /* ExcludesListMatcher.cpp in Sources */,
+				88B19E1B2BE51A0700B49341 /* rijndael.cpp in Sources */,
+				88B19E1C2BE51A0700B49341 /* ELFSourceFile.cpp in Sources */,
+				88B19E1D2BE51A0700B49341 /* utils.cpp in Sources */,
+				88B19E1E2BE51A0700B49341 /* UartPeripheral.cpp in Sources */,
+				88B19E1F2BE51A0700B49341 /* Random.cpp in Sources */,
+				88B19E202BE51A0700B49341 /* IntelHexSourceFile.cpp in Sources */,
+				88B19E212BE51A0700B49341 /* format_string.cpp in Sources */,
+				88B19E222BE51A0700B49341 /* Bootloader.cpp in Sources */,
+				88B19E232BE51A0700B49341 /* GlobMatcher.cpp in Sources */,
+				88B19E242BE51A0700B49341 /* crc16.c in Sources */,
+				88B19E252BE51A0700B49341 /* StExecutableImage.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -514,6 +666,11 @@
 			isa = PBXTargetDependency;
 			target = 02528C3516FE31DC0026B4C2 /* blhost */;
 			targetProxy = 02936E5D172CD35E00D07977 /* PBXContainerItemProxy */;
+		};
+		88B19E352BE51E8000B49341 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 88B19DF92BE51A0700B49341 /* sdphost */;
+			targetProxy = 88B19E342BE51E8000B49341 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -528,6 +685,7 @@
 					../src/drivers/common,
 					../src/bm_usb,
 				);
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
 				OTHER_LDFLAGS = "";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -543,6 +701,7 @@
 					../src/drivers/common,
 					../src/bm_usb,
 				);
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
 				OTHER_LDFLAGS = "";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -636,6 +795,38 @@
 			};
 			name = Release;
 		};
+		88B19E2B2BE51A0700B49341 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				HEADER_SEARCH_PATHS = (
+					../src,
+					../src/include,
+					.,
+					../src/drivers/common,
+					../src/bm_usb,
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		88B19E2C2BE51A0700B49341 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				HEADER_SEARCH_PATHS = (
+					../src,
+					../src/include,
+					.,
+					../src/drivers/common,
+					../src/bm_usb,
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -662,6 +853,15 @@
 			buildConfigurations = (
 				02B3B3BB16DE7116009769BD /* Debug */,
 				02B3B3BC16DE7116009769BD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		88B19E2A2BE51A0700B49341 /* Build configuration list for PBXNativeTarget "sdphost" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				88B19E2B2BE51A0700B49341 /* Debug */,
+				88B19E2C2BE51A0700B49341 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
